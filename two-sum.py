@@ -1,5 +1,7 @@
 '''
-Two Sum
+1. Two Sum
+https://leetcode.com/problems/two-sum/
+
 Given an array of integers nums and an integer target, return the indices i and j such 
 that nums[i] + nums[j] == target and i != j.
 
@@ -27,6 +29,6 @@ def twoSum(self, nums: list[int], target: int) -> list[int]:
             
         'Appending a new key, so that for [5,5], the code gets no error'
         nums_dict[nums[i]] = i
-        
+
         return []
 
